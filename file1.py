@@ -1,4 +1,4 @@
-a=int input("please enter your number")
+a= 25
 b=2
 print(a+b)
 
