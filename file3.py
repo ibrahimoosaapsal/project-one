@@ -1,4 +1,4 @@
-#ifelse excercise
+"""#ifelse excercise
 mark=int(input("enter your mark :"))
 
 if (mark >= 35):
@@ -96,11 +96,28 @@ age=int(input("enter your age :"))
 if(salary>=20000 or age <= 25):
     print("you are eligible for loan")
     amount=int(input("plzz enter your required amount :"))
-
+    if(amount<=50000):
+         print("ok we will contact you soon")
+    else:
+          print("sorry the maximum amount is 50,000!")
 else:
-    print("you are not eligible")
+    print("you are not eligible")"""
 
-if(amount<=50000):
-    print("ok we will contact you soon")
+#eighth program
+a=int(input("enter your  tamil mark :"))
+b=int(input("enter your english mark :"))
+c=int(input("enter your maths mark :"))
+d=int(input("enter your science mark :"))
+e=int(input("enter your social mark :"))
+total=a+b+c+d+e
+avg=total/5
+
+if(avg>=35 and avg<=100):
+        print("you are good to go")
+elif(avg>100):
+        print("invalid input")
 else:
-    print("sorry the maximum amount is 50,000!")
+        print("you need attent more classes")
+
+
+
