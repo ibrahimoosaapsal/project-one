@@ -10,11 +10,12 @@ class coding:#this is class
     def python():#function 3
        print("start coding with python")
 
-ayan=coding
-apsal=coding
-apsal.python()#it will call the function 3
+ayan=coding()
+apsal=coding()
 
 ayan.name="ayan"
 apsal.name="ibrahim"#to assign this value to that empty name variable
 print(apsal.name)
 print(ayan.name)
+print(coding.name)
+print(coding.python())
