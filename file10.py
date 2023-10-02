@@ -43,4 +43,65 @@ apsal.display()#call the object with class funtion
 print()
 ayan.display()
 
+#types of funtional methods
+#instance method is used self
+class laptop():
+    def __init__(self):
+        self.brand=""
+        self.price=34
+    def setprice(self,price):
+        self.price=price
+    def getprice(self):
+        print(self.price)
+
+hp=laptop()
+hp.setprice(20000)
+hp.getprice()
+
+#class method
+class laptop():
+    chargertype="c-type"
+    def __init__(self):
+        self.brand=""
+        self.price=34
+    def setprice(self,price):
+        self.price=price
+    def getprice(self):
+        print(self.price)
+    @classmethod#it will be used to run this charger function without giving: (laptop)
+    def chargertype(cls):
+        cls.chargertype="b-type"
+        print("charger type changed")
+
+hp=laptop()
+hp.setprice(20000)
+hp.getprice()
+laptop.chargertype()
+
+#static method 
+
+class laptop():
+    chargertype="c-type"
+    def __init__(self):
+        self.brand=""
+        self.price=34
+    def setprice(self,price):
+        self.price=price
+    def getprice(self):
+        print(self.price)
+    @classmethod#it will be used to run this charger function without giving: (laptop)
+    def chargertype(cls):
+        cls.chargertype="b-type"
+        print("charger type changed")
+
+    @staticmethod#this method will be help to work the function without self and class
+    def info():
+        print("this is sample static method")
+
+
+hp=laptop()
+hp.setprice(20000)
+hp.getprice()
+laptop.chargertype()
+hp.info()
 
