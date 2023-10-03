@@ -64,7 +64,7 @@ apsal.fun()#just for simple understang for in heritance
 
 #constructor is a funtion which is cakked defaultly when theobj is created
 
-#excercise no 4"""
+#excercise no 4
 
 class vehicle():
     def start(self):
@@ -74,4 +74,27 @@ class car():
         print("car start....")
 
 benze=car()
-benze.start()
+benze.start()"""
+
+#excercise 05
+
+class employee():
+    def __init__(self,name,salary):
+        self.name=name
+        self.salary=salary
+
+class manager(employee):
+     def __init__(self,department,name,salary):
+         super(). __init__(name,salary)
+         self.department=department
+
+
+     def display(self):
+         print(self.name,self.salary,self.department)
+
+emp1=manager("apsal","10,000","biotech")
+
+emp1.display()
+         
+
+
