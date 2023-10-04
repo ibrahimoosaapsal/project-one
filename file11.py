@@ -106,6 +106,4 @@ class b(a):
     def display(self):
         print("you are in class b")
         
-
-
 object=b()

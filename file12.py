@@ -74,7 +74,7 @@ class car():
         print("car start....")
 
 benze=car()
-benze.start()"""
+benze.start()
 
 #excercise 05
 
@@ -94,7 +94,14 @@ class manager(employee):
 
 emp1=manager("apsal","10,000","biotech")
 
-emp1.display()
-         
+emp1.display()"""
 
+#encaptusalation
 
+class company():
+    def __init__(self):
+        self.__companyname="hello"
+    def display():
+        print("hhh")
+abc=company
+abc.display()
