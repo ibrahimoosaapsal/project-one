@@ -1,3 +1,4 @@
+#fibinocci series
 a= 0
 b= 1
 number=int(input("enter the number :"))
