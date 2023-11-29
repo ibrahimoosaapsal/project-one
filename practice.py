@@ -1,4 +1,4 @@
-"""a=int(input("enter your number :-"))
+a=int(input("enter your number :-"))
 if (a>=1):
  b=[]
  sum=0
@@ -15,7 +15,7 @@ if (a>=1):
  print(avg)     
 
 else:
- print("enter valid number" )"""
+ print("enter valid number" )
 
 a=1
 b=2
